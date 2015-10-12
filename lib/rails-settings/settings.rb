@@ -1,6 +1,6 @@
 module RailsSettings
   class Settings < ActiveRecord::Base
-    self.table_name = table_name_prefix + 'settings'
+    # self.table_name = table_name_prefix + 'settings'
 
     class SettingNotFound < RuntimeError; end
 
